@@ -13,7 +13,7 @@ public class DataTypes {
     int i = 455;
     float f = 4.44f;
     long l = 394573904;
-    double d = 230489503;
+    double d = 23043;
 
     //* 2. Non-Primitive Data Types
     String S = "Rocky Mor";
@@ -23,7 +23,7 @@ public class DataTypes {
 
 
   
-    System.out.println(b + "\n" + B + "\n" + c + "\n" + s + "\n" + i + "\n" + f + "\n" + l + "\n" +S);
+    System.out.println(b + "\n" + B + "\n" + c + "\n" + s + "\n" + i + "\n" + f + "\n" + l + "\n" +d+ "\n" +S);
     for (int e = 0; e <= arr.length; e++) {
            System.out.println(arr[e]);
    }
