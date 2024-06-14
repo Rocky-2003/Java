@@ -16,14 +16,14 @@ public class index {
 
     byte b = (byte) s;
 
+    System.out.println(d + "\n" + f + "\n" + l + "\n" + i + "\n" + s + "\n" + b);
 
-    System.out.println(d+"\n" +f+"\n"+l+"\n"+i+"\n"+s+"\n"+b);
-  
-    //Non-Primite Values
+    // Non-Primite Values
     String str = "456";
     Integer inter = Integer.parseInt(str);
+    int si = inter;
+    System.out.println((si));
     System.out.println(inter);
 
-
- }
+  }
 }

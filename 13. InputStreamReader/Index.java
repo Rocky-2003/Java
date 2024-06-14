@@ -5,10 +5,10 @@ public class Index {
   public static void main(String[] args) {
 
 
-    FileInputStream source= null;
+    FileInputStream source= new FileInputStream("./text.txt");
 
     try {
-      source = new FileInputStream("./text.txt");
+      // source = new FileInputStream("./text.txt");
       InputStreamReader isr = new InputStreamReader(source);
       
       int cha;
