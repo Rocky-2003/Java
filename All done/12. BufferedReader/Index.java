@@ -4,8 +4,6 @@ import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.IOException;
 
-import javax.print.DocFlavor.READER;
-
 public class Index {
   public static void main(String[] args) throws IOException {
     FileReader source = new FileReader("./text.txt");

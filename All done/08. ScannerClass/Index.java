@@ -18,7 +18,7 @@ public class Index {
     int a = sc.nextInt();
     System.out.println("Enter an Long");
     long b = sc.nextLong();
-    System.out.println("Enter a Float");
+    System.out.println( "Enter a Float");
     float c = sc.nextFloat();
     System.out.println("Enter a Double");
     double d = sc.nextDouble();

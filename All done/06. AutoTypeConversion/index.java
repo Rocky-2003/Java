@@ -2,17 +2,12 @@
 public class index {
   public static void main(String[] args) {
     byte b = 23;
-
-    short s = b;
-
-    int i = s;
-
+    int i = b;
     long l = i;
     float f = l;
-
     double d = f;
 
-    System.out.println(b + "\n" + s + "\n" + i + "\n" + l + "\n" + f + "\n" + d);
+    System.out.println(b + " " + i + " " + l + " " + f + " " + d);
 
   }
 }

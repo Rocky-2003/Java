@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class Index {
 
   public static boolean isSorted(int[] a, int n) {
-    System.out.println(a.length);
+
     for (int i = 1; i < a.length; i++) {
       if (a[i] < a[i - 1]) {
         return false;
@@ -16,11 +16,9 @@ public class Index {
     Scanner sc = new Scanner(System.in);
     int n = sc.nextInt();
     int[] a = new int[n];
-    int x = 10;
-    System.out.println(a.length);
+
     for (int i = 0; i < a.length; i++) {
-      a[i] = x;
-      x = x -1;
+      a[i] = sc.nextInt();
     }
 
     boolean arrSoted = isSorted(a, n);
