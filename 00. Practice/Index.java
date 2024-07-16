@@ -1,34 +1,44 @@
-class Employee {
-   public int bonus() {
-        return 500;
-    }
-
-}
-
-class Programmer extends Employee {
-
-  public  int bonus() {
-        return 1000;
-    }
-
-}
-
-class Manager extends Employee {
-
-  public  int bonus() {
-        return 2000;
-    }
-
-}
+import java.util.ArrayList;
 
 class Index {
     public static void main(String[] args) {
-        Employee p = new Programmer();
-        Manager m = new Manager();
 
-        // System.out.println("Employe's Bonus : " + p.super.bonus());
-        System.out.println("Employe's Bonus : " + m.bonus());
-        System.out.println("Programmer's Bonus : " + p.bonus());
-        System.out.println("Manager's Bonus : " + m.bonus());
+        String s = "y2b2";
+
+        ArrayList<Character> ch = new ArrayList<>();
+        ArrayList<Character> it = new ArrayList<>();
+        ArrayList<Integer> total = new ArrayList<>();
+        ArrayList<Character> last = new ArrayList<>();
+
+        for (int i = 0; i < s.length(); i++) {
+
+            char c = s.charAt(i);
+            if (c >= 'a' && c <= 'z') {
+                ch.add(c);
+            } else {
+
+                it.add(c);
+            }
+        }
+
+        for (int i = 0; i < ch.size(); i++) {
+            int c = (int) ch.get(i);
+            int c1 = (int) it.get(i);
+            int cc = c + c1;
+            total.add(cc);
+        }
+
+        for (Integer val : total) {
+            int i = val;
+            System.out.println(i);
+            char c = (char) i;
+            System.out.println(c);
+            last.add(c);
+
+        }
+    
+        System.out.println(last);
+
     }
+
 }

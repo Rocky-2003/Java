@@ -1,9 +1,9 @@
 public class Index {
   public static void main(String[] args) {
-    int a = 3;
+    int a = 4;
     int b = 4;
-    int c = 5;
-    int d = 6;
+    int c = 4;
+    int d = 4;
     boolean l = false;
 
     // Unary Minus

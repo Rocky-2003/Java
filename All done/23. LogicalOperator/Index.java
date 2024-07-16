@@ -1,9 +1,7 @@
 public class Index {
   public static void main(String[] args) {
-    boolean a = true;
-    boolean b = false;
-    boolean c = true;
-    boolean d = false;
+    boolean a = true, b = false;
+    boolean c = true, d = false;
 
     // Logical And &&
     System.out.println("Logical AND");

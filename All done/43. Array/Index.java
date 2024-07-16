@@ -18,6 +18,7 @@ public class Index {
     // ! 3D Array
 
     int[][][] c = {
+
         {
             { 1, 2, 3 }, { 3, 2, 1 },
         },
@@ -25,7 +26,6 @@ public class Index {
             { 4, 5, 6 }, { 6, 5, 4 },
         },
     };
-
     for (int i = 0; i < 2; i++) {
       for (int j = 0; j < 2; j++) {
         for (int k = 0; k < 3; k++) {

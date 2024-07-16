@@ -2,7 +2,7 @@ public class Index {
   public static void main(String[] args) {
     int a = 4; // 0100
     int b = 7; // 0111
-    int d = 5;
+    int d = -6;
 
     // Bitwise AND `&`
     System.out.println(a & b);
