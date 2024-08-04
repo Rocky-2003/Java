@@ -49,6 +49,7 @@ public class Index {
     System.out.println("Using Consumer Interface with accept() functionality");
     Consumer<Integer> consume = (Integer t) -> System.out.println(t);
     l1.forEach(consume);
+    
 
 
 
