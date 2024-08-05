@@ -14,4 +14,4 @@ public class Index {
     System.out.println(result); // Output: [APPLE, AVOCADO, APRICOT]
   }
 }
-s
+  
