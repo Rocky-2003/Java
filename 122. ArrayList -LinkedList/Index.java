@@ -14,7 +14,7 @@ public class Index {
 
     // Appending the new elements
     // at the end of the list
-    // using add () method via for loops
+    // using add () method v,a for loops
     for (int i = 1; i <= 5; i++)
       arrli.add(i);
 

@@ -1,28 +1,37 @@
 import java.lang.reflect.Array;
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.Iterator;
+import java.util.LinkedList;
 
 public class Index {
     public static void main(String[] arg) {
-        ArrayList<Integer> arr = new ArrayList<>();
-        ArrayList<Integer> al = new ArrayList<>();
-        arr.add(1);
-        arr.add(2);
-        arr.add(2);
-        arr.add(3);
-        arr.add(4);
-        arr.add(5);
-        for (int i = 1; i < arr.size(); i++) {
-            if (arr.get(i - 1) < arr.get(i)) {
+        int n = 7;
+        int k = 3;
+        LinkedList<Integer> al  = new LinkedList<>();
+    for(int i =0; i<= n; i++){
+        al.add(i);
+    }
 
-                al.add(arr.get(i));
-            } else if (arr.get(i - 1) == arr.get(i)) {
+    Iterator<Integer> it = al.iterator();
+    
+    while (al.size() > 1) {
+        int count = 1;
+        System.out.println(al);
+        while (count <= k) {
+            while (it.hasNext() && count <= k) {
+                it.next();
+                count++;
+            }
 
-                al.add(arr.get(i));
-            } else {
-                al.add(arr.get(i - 1));
+            if (count < k) {
+                it = al.iterator();
+                it.next();
+                count++;
             }
         }
-    System.out.println(al);
+        it.remove();
+        System.out.println(al);
+    }
     }
 }
